@@ -11,7 +11,7 @@ To run this code, here's what you'll need to do:
 1. Download PostgreSQL
    1. When you run the installation, it'll have you configure some stuff. I did all the defaults, so the user is postgres and the port it runs on is 5432
    2. It should download pgAdmin as well. That's how you can view the data in tables and everything.
-   3. Since this is running on localhost, it won't be persistent. You'll have to rerun the code to repopulate everything
+   3. Since this is running on localhost, it won't be persistent. You'll have to rerun the code to repopulate everything after shutting your computer down. I think.
 
 2. Setup pipenv
    1. I've been using PipEnv lately for environment management rather than conda or virtualenv, and I really like it. You'll see the Pipfile and Pipfile.lock in this repo.
