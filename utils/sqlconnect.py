@@ -16,7 +16,8 @@ def tyler_local_connect(appsettings_file_path):
     postgres_connection_settings = _extract_postgres_settings(appsettings_file_path)
     ps = postgres_connection_settings['Tyler']
     engine = create_engine(
-        "postgresql+psycopg2://" + ps["user"] + ":" + ps["password"] + "@" + ps["server"] + "/" + ps["database"]
+        "postgresql+psycopg2://" + ps["user"] + ":" + ps["password"] + "@" + ps["server"] + "/" + ps["database"],
+        echo=True
     )
 
     return engine

@@ -11,6 +11,9 @@ pandas = "*"
 psycopg2 = "*"
 sqlalchemy = "*"
 ipython = "*"
+requests = "*"
+bs4 = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.7"
