@@ -14,6 +14,7 @@ ipython = "*"
 requests = "*"
 bs4 = "*"
 lxml = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.7"
